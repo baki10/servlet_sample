@@ -11,7 +11,7 @@ public class DemoServlet extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     PrintWriter out = response.getWriter();
     out.println("<html>");
-    out.println("<head>Demo Servlet</head>");
+    out.println("<head><title>Demo Servlet</title></head>");
     out.println("<body>");
     out.println("<h1>Demo Servlet Get</h1>");
     out.println("</body>");

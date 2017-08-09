@@ -1,6 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
-<head>Index</head>
+<head>
+  <title>index</title>
+</head>
 <body>
 <h2>Samples:</h2>
 <a href="<c:url value="/demo"/>">Demo servlet</a>
