@@ -64,6 +64,9 @@
         <configuration>
           <stopKey>stop</stopKey>
           <stopPort>8989</stopPort>
+          <httpConnector>
+            <port>12135</port>
+          </httpConnector>
         </configuration>
       </plugin>
     </plugins>
